@@ -1,0 +1,23 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.my_image {
+  width: 500px;
+  max-height: 58vh !important;
+}
+.my_image2 {
+  width: 500px;
+  max-height: 58vh !important;
+  border-radius: 50%;
+}
+.my_row {
+  width: 650px;
+}
+.my_row {
+  overflow-y: hidden;
+  max-width: 95vw;
+  max-height: 100vh;
+}

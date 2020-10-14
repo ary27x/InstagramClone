@@ -1,0 +1,92 @@
+* {
+  overflow-x: hidden;
+}
+
+.logo {
+  font-family: "Grand Hotel", cursive;
+}
+.myflex {
+  display: flex;
+}
+.mycard {
+  padding: 20px;
+  text-align: center;
+  max-width: 550px;
+  margin: 10px auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+.user-image {
+  width: 250px;
+  height: 240px;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  grid-area: i;
+}
+
+.mycontainer-wrapper {
+  width: 100vw;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.mycontainer {
+  max-width: 100vw;
+  display: grid;
+  grid-template: repeat(4, 7.5vh) / 10vw 15vw 5vw 100vw;
+  grid-template-areas:
+    "i i . n"
+    "i i . u"
+    "i i . s"
+    "i i . b";
+}
+.img-choose {
+  max-width: 650px;
+  max-height: 650px;
+}
+.input_file {
+  display: none;
+}
+
+.name {
+  overflow-x: visible;
+  grid-area: n;
+}
+.username {
+  overflow-x: visible;
+
+  grid-area: u;
+}
+.stats {
+  overflow-x: visible;
+
+  grid-area: s;
+}
+.action {
+  margin-left: 10px;
+  max-width: 150px;
+  color: white;
+}
+.action-new {
+  max-width: 150px;
+  color: white;
+}
+.buttons {
+  overflow-x: visible;
+  grid-area: b;
+}
+
+.img-choose {
+  max-width: 650px;
+  max-height: 650px;
+  border: 0.2px solid #039be5;
+}
+.input_file {
+  display: none;
+}

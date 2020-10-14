@@ -1,0 +1,1 @@
+This is a simple Instagram clone made using MERN Stack
